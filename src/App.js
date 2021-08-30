@@ -1,8 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { makeStyles } from "@material-ui/core";
-import { LoginButton } from "./components/LoginButton";
+
 import { Home } from "./Pages/Home";
+import { ButtonLogin } from "./components/styled/styledcomponents";
 
 function App() {
   const user = "pepe";
@@ -12,7 +13,7 @@ function App() {
       {
         <Router>
           {!user ? (
-            <LoginButton />
+            <ButtonLogin />
           ) : (
             <Switch>
               {/*  <Route exact path="/profile">

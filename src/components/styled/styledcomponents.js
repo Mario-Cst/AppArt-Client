@@ -1,3 +1,4 @@
+import { InputBase } from "@material-ui/core";
 import styled from "styled-components";
 
 export const ButtonLogin = styled.button`
@@ -5,15 +6,24 @@ export const ButtonLogin = styled.button`
   &:hover{
       background-color:gray;
   };
-  border-radius:15px;
+ 
  color:#fff;
- width:200px;
- padding:15px;
- font-size:1.5rem;
+ width:100px;
+ padding:10px;
+ font-size:20px;
  text-transform:inherit;
- margin-left:42%;
- margin-top:300px;
+ border-radius:5px;
+
  border:none;
  cursor: pointer;
   };
+`;
+export const AppArtInput = styled(InputBase)`
+  z-index: 30;
+  background: #fff;
+  padding: 25.5px;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
 `;
