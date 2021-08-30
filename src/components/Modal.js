@@ -7,9 +7,11 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import { useState } from "react";
+import { useHistory } from "react-router";
 import { AppArtInput, ButtonLogin } from "./styled/styledcomponents";
 
 const ModalLogin = () => {
+  const history = useHistory();
   const classes = useStyles();
   const [modal, setModal] = useState(false);
   const openCloseModal = () => {
@@ -28,7 +30,12 @@ const ModalLogin = () => {
         <ButtonLogin>Cancel</ButtonLogin>
         <Typography variant="subtitle2">
           New to AppArt ? {""}
-          <span className={classes.signupLink}>Sign Up now</span>
+          <span
+            className={classes.signupLink}
+            onClick={() => history.push("/register")}
+          >
+            Sign Up now
+          </span>
         </Typography>
       </form>
     </div>

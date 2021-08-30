@@ -1,17 +1,28 @@
 import { AppBar, Avatar, Button, makeStyles, Toolbar } from "@material-ui/core";
 import React from "react";
+import { useHistory } from "react-router";
 import GPS from "../images/GPS.png";
 
 export const Header = () => {
+  const history = useHistory();
   const classes = useStyles();
   return (
     <div>
       <AppBar position="sticky" elevation={0} className={classes.root}>
         <Toolbar className={classes.toolbar}>
-          <img src={GPS} alt="logo" className={classes.logo} />
+          <img
+            src={GPS}
+            alt="logo"
+            className={classes.logo}
+            onClick={() => history.push("/")}
+          />
 
-          <h1>AppArt</h1>
-          <Avatar variant="circular"></Avatar>
+          <h1 onClick={() => history.push("/login")}>AppArt</h1>
+          <Avatar
+            className={classes.avatar}
+            variant="circular"
+            onClick={() => history.push("/profile")}
+          ></Avatar>
         </Toolbar>
       </AppBar>
     </div>
@@ -26,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between",
     color: "red",
+    cursor: "pointer",
   },
   logo: {
     width: "100px",
