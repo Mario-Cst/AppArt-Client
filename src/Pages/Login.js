@@ -3,8 +3,6 @@ import React from "react";
 
 import { Header } from "../components/Header";
 import Modal from "../components/Modal";
-import { ButtonLogin } from "../components/styled/styledcomponents";
-import Users from "./Users";
 
 const Login = () => {
   const classes = useStyles();

@@ -2,8 +2,9 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { makeStyles } from "@material-ui/core";
 
-import { Home } from "./Pages/Home";
+import { Login } from "./Pages/Login";
 import { ButtonLogin } from "./components/styled/styledcomponents";
+import Profile from "./Pages/Profile";
 
 function App() {
   const user = "pepe";
@@ -16,14 +17,13 @@ function App() {
             <ButtonLogin />
           ) : (
             <Switch>
-              {/*  <Route exact path="/profile">
-                <Profile />
-              </Route>
-              <Route exact path="/checkout">
-                <Paypal />
-              </Route> */}
+              {
+                <Route exact path="/profile">
+                  <Profile />
+                </Route>
+              }
               <Route exact path="/">
-                <Home />
+                <Login />
               </Route>
             </Switch>
           )}
