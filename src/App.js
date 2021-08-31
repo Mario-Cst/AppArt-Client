@@ -7,7 +7,7 @@ import { ButtonLogin } from "./components/styled/styledcomponents";
 import Profile from "./Pages/Profile";
 import { Header } from "./components/Header";
 import RegisterPage from "./Pages/RegisterPage";
-import HomePage from "./Pages/HomePage";
+import LandingPage from "./Pages/LandingPage";
 
 function App() {
   const user = null;
@@ -29,7 +29,7 @@ function App() {
             </Route>
 
             <Route exact path="/">
-              <HomePage />
+              <LandingPage />
             </Route>
           </Switch>
         </Router>
