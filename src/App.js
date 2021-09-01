@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { makeStyles } from "@material-ui/core";
 
 import LoginPage from "./Pages/LoginPage";
-import { ButtonLogin } from "./components/styled/styledcomponents";
+
 import Profile from "./Pages/Profile";
-import { Header } from "./components/Header";
+
 import RegisterPage from "./Pages/RegisterPage";
 import LandingPage from "./Pages/LandingPage";
+import HomePage from "./Pages/HomePage";
 
 function App() {
   const user = null;
@@ -16,10 +17,12 @@ function App() {
     <div className={classes.root}>
       {
         <Router>
-          <Header />
           <Switch>
             <Route exact path="/profile">
               <Profile />
+            </Route>
+            <Route exact path="/">
+              <HomePage />
             </Route>
             <Route exact path="/login">
               <LoginPage />
@@ -28,7 +31,7 @@ function App() {
               <RegisterPage />
             </Route>
 
-            <Route exact path="/">
+            <Route exact path="/landingpage">
               <LandingPage />
             </Route>
           </Switch>

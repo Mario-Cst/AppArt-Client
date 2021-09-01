@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core";
 import React from "react";
 import { Header } from "../components/Header";
 
-const Profile = () => {
+const HomePage = () => {
   const classes = useStyles();
   return (
     <div>
@@ -10,9 +10,8 @@ const Profile = () => {
     </div>
   );
 };
-
 const useStyles = makeStyles((theme) => ({
   root: {},
 }));
 
-export default Profile;
+export default HomePage;
