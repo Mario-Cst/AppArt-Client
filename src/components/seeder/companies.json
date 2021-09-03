@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "612def350e4f7bd335d8e16f",
+    "name": "Empresa 1",
+    "adress": "Aribau 256, 7-1",
+    "cp": "08700",
+    "city": "Barcelona",
+    "email": "Empresa1@empresa1.com",
+    "password": "$2b$10$prBlsrtBb7fXNMuYZxwICuTCw2kLmU1O/PChfXz3.Qq8W9lpXs9D2",
+    "createDate": "2021-08-31T08:58:29.487Z",
+    "__v": 0
+  },
+  {
+    "_id": "612df03b0e4f7bd335d8e171",
+    "name": "Empresa 2",
+    "adress": "Castilla 85, Entr-3",
+    "cp": "678770",
+    "city": "Madrid",
+    "email": "Empresa2@empresa2.com",
+    "password": "$2b$10$i4bTNuXNWZw.CmeBwMEf9uH1kxb1pvDQwBDoerRk41T4TrNE71Xa2",
+    "createDate": "2021-08-31T09:02:51.988Z",
+    "__v": 0
+  },
+  {
+    "_id": "612df0620e4f7bd335d8e173",
+    "name": "Empresa 3",
+    "adress": "Madrid 845, 4-4",
+    "cp": "123456",
+    "city": "YoqueSé",
+    "email": "Empresa3@empresa3.com",
+    "password": "$2b$10$WnfLcQrN8FGZTUCQKbhNj.ekDozEqjgXRxv7VhjU7LfW29K2DLMZW",
+    "createDate": "2021-08-31T09:03:30.802Z",
+    "__v": 0
+  },
+  {
+    "_id": "612df0900e4f7bd335d8e175",
+    "name": "Empresa 4",
+    "adress": "Cerca 42",
+    "cp": "654321",
+    "city": "Cualquier Sitio",
+    "email": "Empresa4@empresa4.com",
+    "password": "$2b$10$ABSK4VKokcWQfjVQhZt68.fVxwKydMX.ie.9wlD.2SDSiZy2Pooze",
+    "createDate": "2021-08-31T09:04:16.071Z",
+    "__v": 0
+  }
+]

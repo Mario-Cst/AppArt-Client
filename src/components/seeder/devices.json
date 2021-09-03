@@ -1,0 +1,164 @@
+[
+  {
+    "_id": "612df3e013032723df3fe6a4",
+    "brand": "Redmi",
+    "model": "Note 8",
+    "number": "666 555 333",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c30197a09288614d88cb",
+    "brand": "Redmi",
+    "model": "Note 8",
+    "number": "666 124 333",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c30b97a09288614d88cd",
+    "brand": "Redmi",
+    "model": "Note 8",
+    "number": "666 124 453",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c31297a09288614d88cf",
+    "brand": "Redmi",
+    "model": "Note 8",
+    "number": "126 124 453",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c31b97a09288614d88d1",
+    "brand": "Redmi",
+    "model": "Note 8",
+    "number": "826 824 453",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c32797a09288614d88d3",
+    "brand": "Redmi",
+    "model": "Note 9",
+    "number": "826 824 893",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c37997a09288614d88d5",
+    "brand": "Redmi",
+    "model": "Note 9",
+    "number": "826 824 003",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c38297a09288614d88d7",
+    "brand": "Redmi",
+    "model": "Note 9",
+    "number": "826 833 003",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c38c97a09288614d88d9",
+    "brand": "Redmi",
+    "model": "Note 9",
+    "number": "826 873 003",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c39497a09288614d88db",
+    "brand": "Redmi",
+    "model": "Note 9",
+    "number": "826 888 003",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c39d97a09288614d88dd",
+    "brand": "Redmi",
+    "model": "Note 9",
+    "number": "000 888 703",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c3e497a09288614d88df",
+    "brand": "Redmi",
+    "model": "Realme 6",
+    "number": "060 888 703",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c3e997a09288614d88e1",
+    "brand": "Redmi",
+    "model": "Realme 6",
+    "number": "990 888 703",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c3f597a09288614d88e3",
+    "brand": "Redmi",
+    "model": "Realme 6",
+    "number": "990 988 403",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c3fb97a09288614d88e5",
+    "brand": "Redmi",
+    "model": "Realme 6",
+    "number": "990 988 403",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c40397a09288614d88e7",
+    "brand": "Redmi",
+    "model": "Realme 6",
+    "number": "990 989 403",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c40897a09288614d88e9",
+    "brand": "Redmi",
+    "model": "Realme 6",
+    "number": "990 983 403",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  },
+  {
+    "_id": "6131c41397a09288614d88eb",
+    "brand": "Redmi",
+    "model": "Realme 6",
+    "number": "910 983 403",
+    "imei": "12345610654321",
+    "status": true,
+    "__v": 0
+  }
+]
