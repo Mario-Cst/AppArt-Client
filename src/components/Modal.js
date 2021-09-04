@@ -1,10 +1,4 @@
-import {
-  Button,
-  InputBase,
-  makeStyles,
-  Modal,
-  Typography,
-} from "@material-ui/core";
+import { makeStyles, Modal, Typography } from "@material-ui/core";
 import React from "react";
 import { useState } from "react";
 import { useHistory } from "react-router";
@@ -28,7 +22,7 @@ const ModalLogin = () => {
         <AppArtInput placeholder="Password" className={classes.password} />
         <ButtonLogin className={classes.button}>Login</ButtonLogin>
         <ButtonLogin>Cancel</ButtonLogin>
-        <Typography variant="subtitle2">
+        <Typography variant="subtitle2" color="secondary">
           New to AppArt ? {""}
           <span
             className={classes.signupLink}
@@ -57,15 +51,15 @@ const ModalLogin = () => {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    position: "fixed",
-    marginTop: "205px",
-    paddingRight: "20px",
+    position: "absolute",
+    marginTop: "195px",
+    paddingRight: "30px",
 
-    marginLeft: "40%",
+    marginLeft: "37%",
     maxWidth: "350px",
-    width: "30rem",
-    height: "25rem",
-    background: "rgba(0,0,0,0.45)",
+    width: "35rem",
+    height: "29rem",
+    background: "rgba(0,0,0,0.70)",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-evenly",

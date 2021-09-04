@@ -19,7 +19,6 @@ export const ButtonLogin = styled.button`
   };
 `;
 export const AppArtInput = styled(InputBase)`
-  z-index: 30;
   background: #fff;
   padding: 25.5px;
   height: 30px;

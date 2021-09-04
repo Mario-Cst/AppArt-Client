@@ -1,12 +1,20 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles, Typography } from "@material-ui/core";
 import React from "react";
+import ModalLogin from "../components/Modal";
 
-const LandinfPage = () => {
+const LandingPage = () => {
   const classes = useStyles();
-  return <div>Landing</div>;
+  return (
+    <div>
+      <Typography variant="h1" align="center">
+        AppArt
+      </Typography>
+      <ModalLogin />
+    </div>
+  );
 };
 const useStyles = makeStyles((theme) => ({
   root: {},
 }));
 
-export default LandinfPage;
+export default LandingPage;
