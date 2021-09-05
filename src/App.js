@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core";
 import LoginPage from "./Pages/LoginPage";
 
 import Profile from "./Pages/Profile";
+import { Header } from "./components/Header";
 
 import RegisterPage from "./Pages/RegisterPage";
 import LandingPage from "./Pages/LandingPage";
@@ -17,12 +18,13 @@ function App() {
     <div className={classes.root}>
       {
         <Router>
+          <Header />
           <Switch>
             <Route exact path="/profile">
               <Profile />
             </Route>
             <Route exact path="/">
-              <HomePage />
+              <LandingPage />
             </Route>
             <Route exact path="/login">
               <LoginPage />
@@ -30,9 +32,8 @@ function App() {
             <Route exact path="/register">
               <RegisterPage />
             </Route>
-
-            <Route exact path="/landingpage">
-              <LandingPage />
+            <Route exact path="/home">
+              <HomePage />
             </Route>
           </Switch>
         </Router>
