@@ -1,17 +1,12 @@
-import { makeStyles } from "@material-ui/core";
 import React from "react";
-import { Header } from "../components/Header";
+import MasterTab from "./MasterTab";
 
 const HomePage = () => {
-  const classes = useStyles();
   return (
     <div>
-      <Header />
+      <MasterTab />
     </div>
   );
 };
-const useStyles = makeStyles((theme) => ({
-  root: {},
-}));
 
 export default HomePage;
