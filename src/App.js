@@ -10,6 +10,7 @@ import { Header } from "./components/Header";
 import RegisterPage from "./Pages/RegisterPage";
 import LandingPage from "./Pages/LandingPage";
 import HomePage from "./Pages/HomePage";
+import UserPage from "./Pages/UserPage";
 
 function App() {
   const user = null;
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route exact path="/home">
               <HomePage />
+            </Route>
+            <Route exact path="/userpage">
+              <UserPage />
             </Route>
           </Switch>
         </Router>
